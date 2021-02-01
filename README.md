@@ -1,6 +1,6 @@
 # Custodian
 
-This is a basic scheduler built in Node.js. 
+This is a basic scheduler built in Node.js. This will hit an endpoint at the time you specify. 
 
 ## ENV variables 
  - title: name of the script (for logging)
@@ -44,3 +44,7 @@ then
 ```
   docker run YOURSHA
 ```
+
+## Logging
+
+Logs are output via error.log and combined.log respectively via [Winston](https://www.npmjs.com/package/winston)
