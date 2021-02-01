@@ -32,7 +32,7 @@ const job = new CronJob(process.env.cron, function() {
       message: 'Error: ' + process.env.title + " | " + d + " | " + e
     });
   })
-});
+}, null, true, process.env.TZ);
 
 
 // start job
