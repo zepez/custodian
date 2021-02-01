@@ -9,3 +9,7 @@ This is a basic scheduler built in Node.js.
  - method: http request method
  - reqData: data to pass via endpoint
  - reqHeader: headers to pass via endpoint
+
+
+## Todo
+ - add docker support
